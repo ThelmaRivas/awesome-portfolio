@@ -166,13 +166,6 @@ h2    {
   margin-top: 5px;
 }
 
-.card-header {
-  position: relative;
-  margin-top: -20px;
-  
-}
-
-
 
 .contact {
   width: 80%;
@@ -192,6 +185,7 @@ h2    {
   text-decoration: none;
   border-bottom-style: solid; 
   border-bottom-color: var(--textcolor);
+  font-size: 20px;
 }
 
 .contact div {
