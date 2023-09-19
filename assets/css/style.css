@@ -33,23 +33,25 @@ h1 {
 }
 
 nav {
+  display: flex;
   padding-top: 10px;
   margin-right: 40px;
   float: right;
   font-family: var(--headerfont) 
 }
 
-nav ul li {
+nav {
   display: inline-block;
   font-size: 23px;
   margin-left: 35px;
 }
 
-nav ul li a {
+nav a {
   color: var(--maincolor);
   text-decoration: none;
   border-bottom-style: solid; 
   border-bottom-color: var(--maincolor);
+  margin-left: 15px;
 }
 
 .container img {
@@ -125,7 +127,13 @@ h2    {
 .first-project{
   display: flex;
   flex-wrap: wrap;
+  flex: 0 0 800px;
   padding: 10px;
+}
+
+.rest-projects {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .project {
@@ -142,7 +150,7 @@ h2    {
   border-radius: 10px;
 }
 
-.project img {
+.project img {  
   filter: brightness(80%) opacity(85%);
   width: 100%;
   border-style: solid;
@@ -199,8 +207,11 @@ h2    {
 }
 
 
-@media screen and (max-width: 768px) {
-  main, nav {
-    flex-direction: column;
+@media (max-width: 780px) {
+   nav {
+    float: left;
+    margin-left: 0;
+    background-color: var(--textcolor);
+
   }
-}
+} 
