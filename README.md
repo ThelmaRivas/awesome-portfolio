@@ -14,6 +14,10 @@ N/A
 
 The HTML can be found right away on the repository and the CSS file is located inside the assets folder, next to the images folder as well. If you check the HTML file, you can see semantic elements being used all over the html and classes that are link to the css stylesheet. On the css file you can see the new properties such as hover, flexbox, var, etc. In this case we didnt use the console, so for now nothing is found there. 
 
+link to Github Pages --> https://thelmarivas.github.io/awesome-portfolio/
+![alt text](assets/images/githubpages.png)
+
+
 ## Credits 
 
 Use material and notes provided by Edx Bootcamp and MDN resources.
